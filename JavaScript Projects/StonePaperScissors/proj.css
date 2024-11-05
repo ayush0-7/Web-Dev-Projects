@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1b1b1b;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.project-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #262626;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #ff4040;
+    margin-bottom: 10px;
+}
+
+.project-overview, .technologies-used, .project-screenshots, .key-features, .project-link, .contact {
+    margin-bottom: 30px;
+}
+
+.project-overview p, .key-features ul {
+    border-left: 4px solid #ff4040;
+    padding-left: 15px;
+}
+
+.tech-list {
+    display: flex;
+    gap: 10px;
+}
+
+.tech-list span {
+    background-color: #ff4040;
+    color: #1b1b1b;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.screenshots {
+    display: flex;
+    gap: 20px;
+}
+
+.screenshots img {
+    width: 30%;
+    border-radius: 8px;
+    border: 2px solid #ff4040;
+}
+
+.key-features ul {
+    list-style: none;
+    padding: 15px;
+    background-color: #1b1b1b;
+    border: 1px solid #ff4040;
+    border-radius: 8px;
+}
+
+.key-features li {
+    color: #ff4040;
+    margin-bottom: 8px;
+}
+
+.project-link a {
+    text-decoration: none;
+    color: #ff4040;
+    padding: 10px 20px;
+    border: 2px solid #ff4040;
+    border-radius: 5px;
+    background-color: #1b1b1b;
+}
+
+.contact a {
+    color: #ff4040;
+    text-decoration: none;
+}
